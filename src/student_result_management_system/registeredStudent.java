@@ -160,6 +160,8 @@ public class registeredStudent extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        setVisible(false);
+        new index().setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -171,7 +173,7 @@ public class registeredStudent extends javax.swing.JFrame {
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
         setVisible(false);
-        new allstudentResult().setVisible(false);
+        new allstudentResult().setVisible(true);
         
     }//GEN-LAST:event_jButton4ActionPerformed
 
@@ -194,6 +196,8 @@ public class registeredStudent extends javax.swing.JFrame {
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
+        setVisible(false);
+        new adminIndex().setVisible(true);
     }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
